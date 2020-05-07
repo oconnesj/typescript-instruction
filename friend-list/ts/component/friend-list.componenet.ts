@@ -13,9 +13,9 @@ let f5: Friend  = new Friend("Karen O'Connell", 27, "karen.oconnell@gmail.com", 
 friendArray.push(f5)
 
 
-
+console.log("==========================================================================");
 console.log("Name\t\tAge\tEmail\t\t\t\t\tBFF")
-console.log("---------------------------------------------------------------------------------");
+console.log("==========================================================================");
 for (let friend of friendArray) {
     console.log(`${friend.name}\t${friend.age}\t${friend.email}\t\t\t${friend.bff}`);
 }
