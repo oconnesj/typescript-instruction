@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/oconnesj/typescript-instruction/issues"
   },
-  "homepage": "https://github.com/oconnesj/typescript-instruction#readme"
+  "homepage": "https://github.com/oconnesj/typescript-instruction#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
